@@ -1,8 +1,8 @@
 # DAML_time_tracker
 
-###Develop a time tracker application that makes it possible for a user to track time they have spent on various tasks.
+### Develop a time tracker application that makes it possible for a user to track time they have spent on various tasks.
  
-###Minimal solution
+### Minimal solution
 
 - [ ] Daml model that implements, creation, update and deletion of the representation of time spent
 - [ ] Required data to be stored:
