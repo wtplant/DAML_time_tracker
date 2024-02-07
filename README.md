@@ -4,13 +4,16 @@
  
 ### Minimal solution
 
-- [ ] Daml model that implements, creation, update and deletion of the representation of time spent
+- [ ] Daml model that implements:
+    - [ ] creation,
+    - [ ] update and
+    - [ ] deletion of the representation of time spent
+         
 - [ ] Required data to be stored:
-      
-          - Description
-          - Start (date)time
-          - End (date)time
-          - A project identifier to allow higher level organization.
+    - [ ] Description
+    - [ ] Start (date)time
+    - [ ] End (date)time
+    - [ ] A project identifier to allow higher level organization.
       
 - [ ] A Daml script that can be used to initialize the ledger with at least one user and a few sample records.
 - [ ] A Daml script that does some testing of the templates.
