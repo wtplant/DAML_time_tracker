@@ -22,6 +22,8 @@
 https://docs.daml.com/tools/canton-console.html *is the config file refered to the yaml file?* **screenshot the yaml config and or just type in the figuration and point to there |
 addtionally add instructions, i.e. `daml start` to and brief description, also mention the formum.**
 
+### test zipfile before submitting
+
 ## Extras
            
          
