@@ -2,7 +2,7 @@
 
 ### Develop a time tracker application that makes it possible for a user to track time they have spent on various tasks.
  I have created the following app within this folder. The damel template can be found in `Timetracker.daml` file in the 'daml` directory. 
- The template/model meets the follolling requirements:
+ The template/model meets the following requirements:
 #### Minimal solution
 - [x] Daml model that implements:
     - [x] creation,
@@ -15,7 +15,7 @@ Additionally the following data types have been provided:
     - [x] Start (date)time
     - [x] End (date)time
     - [x] A project identifier to allow higher level organization.
-    *(Note: for practical pruposes, `text` has been used to represent time values)*
+    *(Note: for practical purposes, `text` has been used to represent time values)*
 
 In the same `Timetracker.daml` file you will find the following script:
 - [x] A Daml script that can be used to initialize the ledger with at least one user and a few sample records.
@@ -30,7 +30,7 @@ ledger:
     port: 6865
 ```
 
-From the Navigoator UI you can create, update, and archive contracts from the Timetracker template. 
+From the Navigator UI you can create, update, and archive contracts from the Timetracker template. 
 
 
 
