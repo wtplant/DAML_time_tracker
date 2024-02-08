@@ -4,7 +4,7 @@
  
 ### Minimal solution
 
-- [ ] Daml model that implements:
+- [x] Daml model that implements:
     - [x] creation,
     - [x] update and
     - [x] deletion of the representation of time spent.*will leave this as ability to archive*
