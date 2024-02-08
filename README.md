@@ -23,6 +23,11 @@ https://docs.daml.com/tools/canton-console.html *is the config file refered to t
 addtionally add instructions, i.e. `daml start` to and brief description, also mention the formum.**
 
 ### test zipfile before submitting
+  - [x] tested zip file
+  - [ ] Compile readme
+  - [ ] submit
+
+   
 
 ## Extras
            
