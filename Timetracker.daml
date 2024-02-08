@@ -1,0 +1,85 @@
+module Timetracker where
+
+--import Daml.Script
+--import DA.Time.Midnight(TimeOfDay)
+--data TimeOfDay = Text | RelTime | Time | Date | TimeOfDay { hours : Int, minutes : Int }
+  --deriving (Eq, Show)
+
+type AssetId = ContractId Task
+
+-- Template to represent a task
+template Task
+    with
+      user : Party
+      description : Text
+      startTime : Text
+      endTime : Text
+      projectId : Text
+    where
+      signatory user
+      
+      -- Choice to update a task's time
+      choice UpdateTime : ContractId Task
+        with
+          newStartTime : Text
+          newEndTime : Text
+        controller user
+        do
+          create this with startTime = newStartTime; endTime = newEndTime
+    
+    -- Choice to delete a task
+      choice DeleteTask : ()
+        controller user
+        do 
+          archive self
+--from assignment'deletion of the 
+--representation of time spent'
+
+{-SCRIPT
+setupTasks : Script ()
+setupTasks = do
+  -- Allocate a party
+  bill <- allocateParty "bill"
+  alice <- allocateParty "alice"
+  charlie <- allocateParty "charlie"
+
+  -- Create a task
+  task1 <- submit bill do
+    createCmd Task with
+      user = bill
+      description = "Write a script"
+      startTime = "2:30"
+      endTime = "3:30"
+      projectId = "12345"
+
+  task2 <- submit alice do
+    createCmd Task with
+      user = alice
+      description = "Watch DA YouTube"
+      startTime = "1:15"
+      endTime = "1:45"
+      projectId = "123456"
+
+  task3 <- submit charlie do
+    createCmd Task with
+      user = charlie
+      description = "Read Daml documentation"
+      startTime = "8:30"
+      endTime = "9:00"
+      projectId = "1234567"
+
+  task4 <- submit charlie do
+    createCmd Task with
+      user = charlie
+      description = "Review Daml code"
+      startTime = "8:30"
+      endTime = "9:00"
+      projectId = "1234567"
+
+  -- Update a task
+  submit charlie do
+    exerciseCmd task3 UpdateTime with
+      newStartTime = "11:00"
+      newEndTime = "12:00"
+
+  return () -}

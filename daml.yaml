@@ -1,0 +1,19 @@
+sdk-version: 2.8.1
+name: Timetracker
+source: daml
+parties:
+  - user
+  - alice 
+  - bill 
+  - charlie
+#init-script: Timetracker:setupTasks
+version: 0.0.1
+dependencies:
+  - daml-prim
+  - daml-stdlib
+  - daml-script
+#sandbox-options:
+#  - --wall-clock-time
+
+
+
