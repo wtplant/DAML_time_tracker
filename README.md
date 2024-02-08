@@ -1,7 +1,7 @@
 # Time Tracker Application
 
 ### Develop a time tracker application that makes it possible for a user to track time they have spent on various tasks.
- I have created the following app within this folder. The damel template can be found in `Timetracker.daml` file in the 'daml` directory. 
+ I have created the following app within this folder. The damel template can be found in `Timetracker.daml` file in the `daml` directory. 
  The template/model meets the following requirements:
 #### Minimal solution
 - [x] Daml model that implements:
