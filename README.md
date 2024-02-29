@@ -1,3 +1,10 @@
+#### This is a DAML app:
+DAML is smart contract language for multi party applications. DAML contracts/apps can be deployed to interact with centralized databases as well as select blockchain networks.
+DAML syntax is based on and is similar to the Haskell programing language. DAML differes from Solidity smart contracts in many ways, you can read more about how they stack up [here](https://blog.logrocket.com/daml-vs-solidity-choose-smart-contract-language/)
+
+You can access the DAML docs at https://docs.daml.com/. 
+Additoinally a good resource for updated information about the platform can befound on their forum [here](https://discuss.daml.com/).
+
 # Time Tracker Application
 
 ### Develop a time tracker application that makes it possible for a user to track time they have spent on various tasks.
