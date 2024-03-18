@@ -15,11 +15,7 @@ Additoinally a good resource for updated information about the platform can befo
     - [x] update and
     - [x] deletion of the representation of time spent.
 
-Additionally the following data types have been provided:
-    - [x] Description
-    - [x] Start (date)time
-    - [x] End (date)time
-    - [x] A project identifier to allow higher level organization.
+Additionally the following data types have been provided: Description, Start (date)time, End (date)time, A project identifier to allow higher level organization.
 
 In the same `Timetracker.daml` file you will find the following script:
 - [x] A Daml script that can be used to initialize the ledger with at least one user and a few sample records.
