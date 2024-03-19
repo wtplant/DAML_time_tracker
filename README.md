@@ -8,10 +8,10 @@ Additoinally a good resource for updated information about the platform can befo
 # Time Tracker Application
 
 ### This is a time tracker application that makes it possible for a user to track time they have spent on various tasks.
- The daml template can be found in `Timetracker.daml` file in the `daml` directory. 
+ The daml template can be found in the`Timetracker.daml` file in the `daml` directory. 
 
 - [x] This Daml model implements:
-    - [x] creation,
+    - [x] creation
     - [x] update and
     - [x] deletion of the representation of time spent.
 
